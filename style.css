@@ -1,0 +1,99 @@
+		#container{
+			margin:0 auto;
+			width: 900px;
+		}
+		#cube{
+			background-color: #f5f5f5;
+			box-shadow: inset 0 -1px 0 rbga(0,0,0,.15);
+			border-radius: 12px;
+			width:800px;
+			height: 20px; 
+		}
+		#progressbar{
+			height: 100%;
+			border-radius: 10px;
+			background: linear-gradient(45deg,#5bc0de 30%,#73c9e3 30%,#73c9e3 60%,#5bc0de 60%);
+			background-size: 50px 20px; 
+			animation: moving 2s linear infinite,going 8s linear;
+			text-align: center;
+			color:#ffffff;
+			font-family: "Times New Roman";
+		}
+		@keyframes moving{
+			0%{background-position:0,0 ;}
+			100%{background-position: -50px,0 ;}
+		}
+		@keyframes going{
+			0%{width:0% ;}
+			100%{width: 100% ;}
+		}
+		#circle-cube{
+			margin-top: 50px;
+			background-color: #f5f5f5;
+			width:800px;
+			height: 8px;
+			border-radius: 4px;
+			position: relative;
+		}
+		#circle-cube div{
+			height: 100%;
+			width: 100%;
+			background-color: green;
+			position: absolute;
+			border-radius: 4px;
+			-webkit-animation: circle-div 10s linear;
+			-o-animation: circle-div 10s linear;
+			animation: circle-div 10s linear;
+		}
+		#circle-cube > span{
+			height: 24px;
+			width: 24px;
+			border-radius: 12px;
+			background-color: green;
+			position: absolute; 
+			top:-8px;
+		}
+		#circle-cube > span:nth-child(2){
+			left: -12px;
+			animation: span_1 0.15s linear;
+		}
+		#circle-cube > span:nth-child(3){
+			left: 188px;
+			animation: span_2 2.65s linear;
+		}
+		#circle-cube > span:nth-child(4){
+			left: 388px;
+			animation: span_3 5.15s linear;
+		}
+		#circle-cube > span:nth-child(5){
+			left: 588px;
+			animation: span_4 7.65s linear;
+		}
+		#circle-cube > span:nth-child(6){
+			left: 788px;
+			animation: span_4 10.15s linear;
+		}
+		@keyframes circle-div{
+			0%{width:0%;}
+			100%{width: 100%;}
+		}
+		@keyframes span_1{
+			0%{background-color: #f5f5f5;}
+			100%{background-color: green;}
+		}
+		@keyframes span_2{
+			0%,88.68%{background-color: #f5f5f5;}
+			100%{background-color: green;}
+		}
+		@keyframes span_3{
+			0%,94.17%{background-color: #f5f5f5;}
+			100%{background-color: green;}
+		}
+		@keyframes span_4{
+			0%,96.08%{background-color: #f5f5f5;}
+			100%{background-color: green;}
+		}
+		@keyframes span_5{
+			0%,97.04%{background-color: #f5f5f5;}
+			100%{background-color: green;}
+		}
