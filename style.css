@@ -97,3 +97,46 @@
 			0%,97.04%{background-color: #f5f5f5;}
 			100%{background-color: green;}
 		}
+		#circle{
+			width: 200px;
+			height: 200px;
+			margin-top: 50px;
+			position: relative;
+		}
+		#left,#right{
+			width: 50%;
+			height: 100%;
+			position: absolute;
+			overflow: hidden;
+		}
+		#right{
+			left: 50%;
+		}
+		#left div,#right div{
+			width: 160px;
+			height: 160px;
+			border-radius:50%;
+			border: 20px solid transparent; 
+			position: absolute;
+		}
+		#left div{
+			border-top:20px solid red;
+			border-left:20px solid red;
+			transform:rotate(315deg);
+			animation: left-spin 8s linear; 
+		}
+		#right div{
+			border-right:20px solid red;
+			border-bottom:20px solid red;
+			left: -101px;
+			transform:rotate(315deg);
+			animation: right-spin 8s linear;
+		}
+		@keyframes right-spin {
+			0%{transform: rotate(135deg);}
+			50%,100%{transform: rotate(315deg);}
+		}
+		@keyframes left-spin {
+			0%,50%{transform: rotate(135deg);}
+			100%{transform: rotate(315deg);}
+		}
