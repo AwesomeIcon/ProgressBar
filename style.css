@@ -1,3 +1,6 @@
+		body{
+			font-family: "Times New Roman";
+		}
 		#container{
 			margin:0 auto;
 			width: 900px;
@@ -17,7 +20,6 @@
 			animation: moving 2s linear infinite,going 8s ease-out;
 			text-align: center;
 			color:#ffffff;
-			font-family: "Times New Roman";
 		}
 		@keyframes moving{
 			0%{background-position:0,0 ;}
@@ -102,6 +104,8 @@
 			height: 200px;
 			margin-top: 50px;
 			position: relative;
+			display: inline-block;
+			margin-right: 200px; /*布局用*/
 		}
 		#left,#right{
 			width: 50%;
@@ -154,5 +158,4 @@
 			animation: going 8s ease-out;
 			text-align: center;
 			color:#ffffff;
-			font-family: "Times New Roman";
 		}

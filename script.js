@@ -6,18 +6,27 @@ function getCssStyle(obj,prop){
 	}
 }
 window.onload = function(){
-	progressbar = document.getElementById("progressbar");
-	number = document.getElementById("number");
-	cube = document.getElementById("cube");
-	outsideWidth = getCssStyle(cube,"width");
-	// leftDiv = document.getElementById("leftDiv");
-	// rightDiv = document.getElementById("rightDiv");
-	// currentLeftRotate = getCssStyle(leftDiv,"transform");
+	var progressbar = document.getElementById("progressbar");
+	var number = document.getElementById("number");
+	var cube = document.getElementById("cube");
+	var outsideWidth = getCssStyle(cube,"width");
+	// var leftDiv = document.getElementById("leftDiv");
+	// var rightDiv = document.getElementById("rightDiv");
+	// var currentLeftRotate = getCssStyle(leftDiv,"transform");
 	setInterval(function(){
 		//console.log(getCssStyle(rightDiv,"transform"));
 		// console.log(getCssStyle(leftDiv,"transform"));
-		innersideWidth = getCssStyle(progressbar,"width");
-		percentage = parseFloat(innersideWidth) / parseFloat(outsideWidth) * 100;
+		var innersideWidth = getCssStyle(progressbar,"width");
+		var percentage = parseFloat(innersideWidth) / parseFloat(outsideWidth) * 100;
 		progressbar.innerHTML = Math.round(percentage) + "%";
 	},100);
+	//
+	// canvas
+	var wave = document.getElementById("wave");
+	var ctx = wave.getContext('2d');
+	ctx.beginPath();
+	ctx.fillStyle = "#f5f5f5";
+	ctx.arc(100,100,100,0,2*Math.PI);
+	ctx.closePath();
+	ctx.fill();
 }
