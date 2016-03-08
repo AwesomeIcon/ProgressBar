@@ -4,7 +4,7 @@
 ![water-wave-progress](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/water-wave-progress.gif)
 
 ### Ⅱ InfiniteLoadingStyle
-![infinite-loading](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/infiniteloading.gif)
+![infinite-loading](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/infinite-loading.gif)
 
 ### Ⅲ BlueBarGradientStyle
 ![blue-bar-gradient](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/blue-bar-gradient.gif)
