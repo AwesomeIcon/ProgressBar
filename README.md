@@ -16,16 +16,10 @@ you may start with the initialization html or an existing html,and insert the co
 </div>
 ```
 
-of course, you can change the size of canvas,but please keep WIDTH & HEIGHT the same.Also,please import the javascript in your html, you can choose to download the js file like this:
+of course, you can change the size of canvas,but please keep WIDTH & HEIGHT the same.Also,please import the javascript in your html, you should download the javascript file from github and import like this:
 
 ```javascript
 <script type="text/javascript" src="water-wave-progress.js"></script>
-```
-
-or use the source file from github.
-
-```javascript
-<script type="text/javascript" src="https://github.com/AwesomeIcon/ProgressBar/blob/master/js/water-wave-progress.js"></script>
 ```
 
 If you want to change the ID_NAME, you just need to modify the associated code in water-wave-progress.js like this:
