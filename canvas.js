@@ -1,6 +1,8 @@
 // window.onload = function(){
 	var wave = document.getElementById("wave");
 	var ctx = wave.getContext('2d');
+	var canvas_span = document.getElementById("canvas_wave").getElementsByTagName("span")[0];
+
 
 // }
 
@@ -18,7 +20,7 @@ var step = 0; //倾斜角度
 var radius = 100;
 function loop(){
 	ctx.clearRect(0,0,wave.width,wave.height);
-	ctx.fillStyle = "rgba(0,222,255, 0.2)";
+	ctx.fillStyle = "rgba(0,222,255, 0.5)";
 	step++;
 	//转弧度制
 	var angle = step * Math.PI / 720;
@@ -29,7 +31,9 @@ function loop(){
 	var Y1 = 100 + Math.cos((angle + leftDeltaHeight)) * radius;
 	var X2 = 100 + Math.sin((angle + rightDeltaHeight)) * radius;
 	var Y2 = 100 + Math.cos((angle + rightDeltaHeight)) * radius;
-	console.log(Y1,Y2)
+	var Y1_ = 100 + Math.cos(angle) * radius;
+	var Y2_ = 100 + Math.cos(angle) * radius;
+	canvas_span.innerHTML = Math.round((200 - (Y1_ + Y2_) / 2) / 200 * 100) + '%';
 	ctx.moveTo(X1,Y1);
 	ctx.bezierCurveTo(100,Y1,100,Y2,X2,Y2);
 	ctx.arc(100,100,radius,0.5*Math.PI - angle - rightDeltaHeight,0.5*Math.PI + angle + leftDeltaHeight);
