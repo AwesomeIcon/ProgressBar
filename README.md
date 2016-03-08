@@ -31,6 +31,10 @@ var wave = document.getElementById("THE_CANVAS_ID_YOU_WANT");
 
 Yeah, it's easy to use the awesome style, and be free to Pull Requests!
 
+#### LICENSE
+[LICENSE UNDER MIT]
+(https://github.com/AwesomeIcon/ProgressBar/raw/master/LICENSE)
+
 ### Ⅱ InfiniteLoadingStyle
 ![infinite-loading](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/infinite-loading.gif)
 
