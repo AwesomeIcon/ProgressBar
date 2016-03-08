@@ -1,9 +1,19 @@
-# ProgressBar
+# ProgressBar Based On CSS3 & Javascript
 
-### Screen Shot
+### Ⅰ WaterWaveStyle
+![water-wave-progress](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/water-wave-progress.gif)
 
-#### Ⅰ Percentage-Style
-![progressbar](https://github.com/AwesomeIcon/ProgressBar/blob/master/progress.gif)
+### Ⅱ InfiniteLoadingStyle
+![infinite-loading](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/infiniteloading.gif)
 
-#### Ⅱ InfiniteLoading-Style
-![infiniteloading](https://github.com/AwesomeIcon/ProgressBar/blob/master/infiniteloading.gif)
+### Ⅲ BlueBarGradientStyle
+![blue-bar-gradient](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/blue-bar-gradient.gif)
+
+### Ⅳ ColorfulStyle
+![colorful-progress](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/colorful-progress.gif)
+
+### Ⅴ GreenCircleBarStyle
+![green-circle-bar](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/green-circle-bar.gif)
+
+### Ⅵ RingLikeStyle
+![ringlike-progress](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/ringlike-progress.gif)

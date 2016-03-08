@@ -1,0 +1,27 @@
+		.small-cube , .big-cube{ 
+			width: 200px;
+			height:300px;
+			position: absolute;
+			top:120px;
+			left:550px;
+			transform-style:preserve-3d;
+        	transform:rotateX(30deg) rotateY(30deg);
+		}
+		.small-cube{
+			animation:spin 5s infinite linear;
+		}
+		.big-cube{
+			animation:spino 5s infinite linear;
+		}
+		@keyframes spin{
+			from{transform:rotateX(0deg) rotateY(0deg);}
+			50%{transform:rotateX(180deg) rotateY(200deg);}
+			to{transform:rotateX(360deg) rotateY(360deg);}
+		}
+		@keyframes spino{
+			from{transform:rotateX(0deg) rotateY(-360deg);}
+			50%{transform:rotateX(-200deg) rotateY(-180deg);}
+			to{transform:rotateX(-360deg) rotateY(0deg);}
+		}
+		.poster{ width:100px;height: 100px;position: absolute; top:100px;left:50px; border-radius: 10px}
+		.poster1{width:200px;height: 200px;position: absolute; top:50px;left:0px; border-radius: 10px}

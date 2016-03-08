@@ -10,12 +10,7 @@ window.onload = function(){
 	var number = document.getElementById("number");
 	var cube = document.getElementById("cube");
 	var outsideWidth = getCssStyle(cube,"width");
-	// var leftDiv = document.getElementById("leftDiv");
-	// var rightDiv = document.getElementById("rightDiv");
-	// var currentLeftRotate = getCssStyle(leftDiv,"transform");
 	setInterval(function(){
-		//console.log(getCssStyle(rightDiv,"transform"));
-		// console.log(getCssStyle(leftDiv,"transform"));
 		var innersideWidth = getCssStyle(progressbar,"width");
 		var percentage = parseFloat(innersideWidth) / parseFloat(outsideWidth) * 100;
 		progressbar.innerHTML = Math.round(percentage) + "%";
