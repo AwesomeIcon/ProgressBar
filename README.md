@@ -16,10 +16,16 @@ you may start with the initialization html or an existing html,and insert the co
 </div>
 ```
 
-of course, you can change the size of canvas,but please keep WIDTH & HEIGHT the same.Also,please import the javascript in your html like this:
+of course, you can change the size of canvas,but please keep WIDTH & HEIGHT the same.Also,please import the javascript in your html, you can choose to download the js file like this:
 
 ```javascript
-<script type="text/javascript" src="js/water-wave-progress.js"></script>
+<script type="text/javascript" src="water-wave-progress.js"></script>
+```
+
+or use the source file from github.
+
+```javascript
+<script type="text/javascript" src="https://github.com/AwesomeIcon/ProgressBar/blob/master/js/water-wave-progress.js"></script>
 ```
 
 If you want to change the ID_NAME, you just need to modify the associated code in water-wave-progress.js like this:
@@ -29,7 +35,7 @@ var canvas_wave = document.getElementById("THE_DIV_ID_YOU_WANT");
 var wave = document.getElementById("THE_CANVAS_ID_YOU_WANT");
 ``` 
 
-Yeah,it's easy to use the awesome style,and be free to pull requests!Enjoy it!
+Yeah, it's easy to use the awesome style, and be free to Pull Requests!
 
 ### Ⅱ InfiniteLoadingStyle
 ![infinite-loading](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/infinite-loading.gif)
