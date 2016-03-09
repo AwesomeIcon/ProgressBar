@@ -29,6 +29,14 @@ var canvas_wave = document.getElementById("THE_DIV_ID_YOU_WANT");
 var wave = document.getElementById("THE_CANVAS_ID_YOU_WANT");
 ``` 
 
+or you want to change color of wave or of number,and number's font-family just modify javascript code below:
+
+```javascript
+var fillColor = "THE_COLOR_YOU_WANT"; // e.g. rgba(0,222,255, 0.5)
+var fontColor = "THE_FONT_COLOR";
+var fontfamily = "FONT_FAMILY_YOU_WANT"; // e.g. Times New Roman
+```
+
 Yeah, it's easy to use the awesome style, and be free to Pull Requests!
 
 #### LICENSE

@@ -1,8 +1,13 @@
+/* modify block start*/
 var wave = document.getElementById("wave");
 var canvas_wave = document.getElementById("canvas_wave");
+var fillColor = "rgba(0,222,255, 0.5)";
+var fontColor = "black";
+var fontfamily = "Times New Roman";
+/* modify block end*/
+
 var ctx = wave.getContext('2d');
 var canvas_span = canvas_wave.getElementsByTagName("span")[0];
-console.log(wave.width)
 window.onload = function(){
 	canvas_wave.style.position = "relative";
 	canvas_wave.style.width = wave.width + 'px';
@@ -15,6 +20,8 @@ window.onload = function(){
 	canvas_span.style.fontWeight = "bold";
 	canvas_span.style.lineHeight = "4";
 	canvas_span.style.textAlign = "center";
+	canvas_span.style.color = fontColor;
+	canvas_span.style.fontFamily = fontfamily;
 }
 
 //如果浏览器支持requestAnimFrame则使用requestAnimFrame否则使用setTimeout
@@ -31,7 +38,7 @@ var step = 0; //倾斜角度
 var radius = wave.width / 2;
 function loop(){
 	ctx.clearRect(0,0,wave.width,wave.height);
-	ctx.fillStyle = "rgba(0,222,255, 0.5)";
+	ctx.fillStyle = fillColor;
 	step++;
 	//转弧度制
 	var angle = step * Math.PI / 720;
