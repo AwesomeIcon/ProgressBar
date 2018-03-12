@@ -40,8 +40,7 @@ var fontfamily = "FONT_FAMILY_YOU_WANT"; // e.g. Times New Roman
 Yeah, it's easy to use the awesome style, and be free to Pull Requests!
 
 #### LICENSE
-[LICENSE UNDER MIT]
-(https://github.com/imtypist/ProgressBar/raw/master/LICENSE)
+[LICENSE UNDER MIT](./LICENSE)
 
 ### Ⅱ InfiniteLoadingStyle
 ![infinite-loading](./screenshot/infinite-loading.gif)
