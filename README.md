@@ -3,7 +3,7 @@
 ### Ⅰ WaterWaveStyle
 
 #### Preview
-![water-wave-progress](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/water-wave-progress.gif)
+![water-wave-progress](./screenshot/water-wave-progress.gif)
 
 #### Usage
 
@@ -41,19 +41,19 @@ Yeah, it's easy to use the awesome style, and be free to Pull Requests!
 
 #### LICENSE
 [LICENSE UNDER MIT]
-(https://github.com/AwesomeIcon/ProgressBar/raw/master/LICENSE)
+(https://github.com/imtypist/ProgressBar/raw/master/LICENSE)
 
 ### Ⅱ InfiniteLoadingStyle
-![infinite-loading](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/infinite-loading.gif)
+![infinite-loading](./screenshot/infinite-loading.gif)
 
 ### Ⅲ BlueBarGradientStyle
-![blue-bar-gradient](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/blue-bar-gradient.gif)
+![blue-bar-gradient](./screenshot/blue-bar-gradient.gif)
 
 ### Ⅳ ColorfulStyle
-![colorful-progress](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/colorful-progress.gif)
+![colorful-progress](./screenshot/colorful-progress.gif)
 
 ### Ⅴ GreenCircleBarStyle
-![green-circle-bar](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/green-circle-bar.gif)
+![green-circle-bar](./screenshot/green-circle-bar.gif)
 
 ### Ⅵ RingLikeStyle
-![ringlike-progress](https://github.com/AwesomeIcon/ProgressBar/blob/master/screenshot/ringlike-progress.gif)
+![ringlike-progress](./screenshot/ringlike-progress.gif)
